@@ -1,0 +1,5 @@
+<subsystem xmlns="urn:jboss:domain:deployment-scanner:2.0">
+	<deployment-scanner scan-enabled="true"
+		scan-interval="10000" path="${swarm.deployment.path}"
+		name="quote-service" auto-deploy-xml="false" />
+</subsystem>
